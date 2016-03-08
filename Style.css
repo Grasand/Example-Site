@@ -1,0 +1,121 @@
+body{
+	background:#cbbb9b ;
+	margin: 0 ;
+	padding: 0 ;
+	font-family: "helvetica" "arial" ;
+}
+
+p{
+	text-indent: 4em;
+
+}
+
+h2:first-child{
+	padding-top: 3em ;
+	border-bottom: 1px solid #9bc3cb ;
+	text-align: center;
+}
+
+#wrapper{
+	width : 1100px ;
+	height : auto ;
+	background : #cba39b ;
+	border-left : 5px solid #9bc3cb ;
+	border-right : 5px solid #9bc3cb ;
+	overflow : auto ;
+	margin: 0 auto ;
+	padding: 10px ;
+}
+
+#header{
+	width : 100% ;
+	height : 100px ;
+	border-bottom : 3px solid #9bc3cb ;
+	float : right;
+}
+
+.picright{
+	float : right ;
+	margin: 2em ;
+	border: 2px solid #9bc3cb ;
+}
+
+.picleft{
+	float: left ;
+	margin: 2em ;
+	border: 2px solid #9bc3cb;
+}
+
+.logo{
+	float: left ;
+	margin: 10px 0px 10px 20px ;
+}
+.title{
+	text-align : center ;
+	color : #467c87 ;
+}
+
+#sidebar{
+	float : left ;
+	width : 275px ;
+	height : 100%;
+}
+
+.menu{
+	float : left ;
+	height : auto ;
+	width : 200px ;
+}
+	.menu ul li {
+		padding : 5px ;
+		list-style : none ;
+		text-align : center;
+}
+
+
+	.menu ul li a {
+			background: #cbbb9b ;
+			color: #4e4f3e;
+			text-decoration: none ;
+			padding: 10;
+			display: block;
+			box-shadow: 10px 10px 5px #888888;
+}
+		.menu ul li a:hover {
+			color: #fff;
+			background: #b19969 ;
+}
+.content {
+	float: left;
+	width: 655px;
+	height: 100%;
+	padding-left: 2em;
+	letter-spacing: 1;
+	border-left: 5px solid #9bc3cb;
+	color : #57574C;
+}
+
+.footer {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	width: 100px;
+	margin-right: 10px;
+}
+.footer p {
+		padding : 5px ;
+		text-align : center;
+		text-indent: 0 ;
+}
+.footer p a{
+	background: #cba39b ;
+			color: #4e4f3e;
+			text-decoration: none ;
+			padding: 10;
+			display: block;;
+			border:2px solid #9bc3cb;
+			box-shadow: 6px 6px 3px #888888;
+}
+.footer p a:hover{
+	color: #fff;
+}
